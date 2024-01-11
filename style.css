@@ -1,0 +1,116 @@
+/* FONT ROBOTO */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;500&display=swap');
+
+/* PALETA DE CORES */
+:root{
+    --cor-primaria: #010103;
+    --cor-securaria: #541729;
+    --cor-terciaria: #758173;
+    --cor-textos: #D9FFF5;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    border-style: none;
+    color: var(--cor-textos);
+}
+
+body{
+    background-color: var(--cor-primaria);
+}
+
+header{
+    background-color: var(--cor-primaria);
+    display: flex;
+    /* width: 50; */
+    height: 100px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.logo {
+    margin-left: 150px;
+}
+
+.logo h1{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--cor-terciaria);
+}
+
+.logo span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+    color: var(--cor-textos);
+}
+
+nav{
+    max-width: 1200px;
+}
+
+nav ul li{
+    margin: 15px;
+}
+
+
+nav ul li a:hover {
+    color: var(--cor-terciaria);
+    border-bottom: solid 1px var(--cor-terciaria);
+}
+
+.nav-list li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+.button-contato {
+    display: flex;
+    margin-right: 150px;
+    background-color: var(--cor-terciaria);
+    width: 250px;
+    height: 40px;
+    border-radius: 35px;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-contato:hover {
+    background-color: var(--cor-securaria);
+}
+
+
+.text-contato{
+    font-size: 1.1rem;
+}
+
+.icon-container img {
+    width: 14px;
+    margin-right: 5px;
+}
+
+.primary{
+    height: calc(100vh - 100px);
+    background-color: red;
+    background-image: url('./assets/martelo.jpg');
+    background-size: cover;
+    background-position: center;
+
+}   
+
+
+
+
+
+
+
+
+
+
+
+
