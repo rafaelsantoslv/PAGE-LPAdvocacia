@@ -129,7 +129,7 @@ nav ul li a:hover {
     z-index: 1; 
 }
 
-.title-primary h2 {
+.title-primary h1 {
     padding: 15px;
     color: var(--cor-textos);
     font-size: 5rem;
@@ -146,8 +146,8 @@ nav ul li a:hover {
 .secundary {
     /* display: flex; */
     background-color: #D9FFF5;
-    height: 500px;
-    padding: 50px 150px 0 150px;
+    height: 600px;
+    padding: 50px 150px 50px 150px;
 }
 
 .secundary * {
@@ -155,8 +155,15 @@ nav ul li a:hover {
 }
 
 .title-secundary h2 {
-    padding-bottom: 10px;
+    padding: 0 0 10px 250px;
     font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.title-secundary h1 {
+    padding: 0 0 10px 250px;
+    font-size: 1.5rem;
+    color: #CCA776;
 }
 
 .textgroup-secundary {
@@ -167,8 +174,9 @@ nav ul li a:hover {
 }
 
 .text-secundary {
-    width: 40%;
+    width: 45%;
     padding: 40px;
+
 }
 
 .text-secundary p {
