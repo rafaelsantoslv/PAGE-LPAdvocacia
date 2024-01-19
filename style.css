@@ -127,13 +127,17 @@ nav ul li a:hover {
     justify-content: center;
     text-align: center;
     z-index: 1; 
+    padding: 0 350px 0 350px;
 }
 
 .title-primary h1 {
     padding: 15px;
     color: var(--cor-textos);
-    font-size: 5rem;
+    font-size: 70px;
     font-family: 'Playfair Display', serif;
+    text-align: center;
+    line-height: 78px;
+    font-weight: 400;
 }
 
 .button-primary {
@@ -185,6 +189,71 @@ nav ul li a:hover {
 }
 
 
+/* TERCEIRA SEÇÃO */
+.tertiary {
+    height: 700px;
+    padding: 50px 150px 50px 150px;
+    /* display: flex; */
+}
+
+.title-tertiary h1, .title-tertiary p{
+    margin: auto;
+    text-align: center;
+}
+
+.title-tertiary h1 {
+    font-family: "Playfair Display", Sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+    line-height: 1.3rem;
+    padding-bottom: 30px;
+}
+
+.title-tertiary p{
+    margin-bottom: 0.9rem;
+
+}
+
+
+.group-itens-tertiary {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.itens-tertiary{
+    display: flex;
+    width: 350px;
+    padding-top: 50px;
+    /* flex-wrap: wrap; */
+    /* align-content: flex-start; */
+    /* position: relative; */
+}
+
+.img-tertiary{
+    padding-right: 30px;
+}
+
+.text-tertiary h4 {
+    text-align: left;
+    padding-bottom: 5px;
+    font-size: 25px;
+    font-family: "Playfair Display", Sans-serif;
+}
+
+.text-tertiary p {
+    color: rgba(255, 255, 255, 0.6);;
+
+}
+
+.button-tertiary-div {
+    padding-top: 50px;
+}
+
+.button-tertiary {
+    margin: auto;
+}
 
 
 
