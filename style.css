@@ -1,5 +1,6 @@
 /* FONT ROBOTO */
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 /* PALETA DE CORES */
 :root{
@@ -23,6 +24,7 @@ body{
     background-color: var(--cor-primaria);
 }
 
+/* HEADER */
 header{
     background-color: var(--cor-primaria);
     display: flex;
@@ -38,14 +40,14 @@ header{
 }
 
 .logo h1{
-    font-size: 1.5rem;
+    font-size: 2.5rem;
     font-weight: bold;
     color: var(--cor-terciaria);
 }
 
 .logo span{
     font-family: 'Courier New', Courier, monospace;
-    font-size: 1rem;
+    font-size: 1.5rem;
     color: var(--cor-textos);
 }
 
@@ -94,8 +96,9 @@ nav ul li a:hover {
     margin-right: 5px;
 }
 
+/* PRIMEIRA SEÇÃO */
 .primary {
-    position: relative; /* Adiciona position relative para que o pseudo-elemento seja relativo a este elemento */
+    position: relative; 
     height: calc(100vh - 100px);
     width: 100%;
     display: flex;
@@ -104,7 +107,7 @@ nav ul li a:hover {
 }
 
 .primary::before {
-    content: ""; /* Adiciona um conteúdo vazio para criar o pseudo-elemento */
+    content: ""; 
     position: absolute;
     top: 0;
     left: 0;
@@ -119,17 +122,18 @@ nav ul li a:hover {
 }
 
 .title-primary {
-    position: relative; /* Adiciona position relative para que o z-index funcione corretamente */
+    position: relative; 
     align-items: center;
     justify-content: center;
     text-align: center;
-    z-index: 1; /* Coloca os elementos filhos à frente do pseudo-elemento */
+    z-index: 1; 
 }
 
-.title-primary h1 {
+.title-primary h2 {
     padding: 15px;
     color: var(--cor-textos);
     font-size: 5rem;
+    font-family: 'Playfair Display', serif;
 }
 
 .button-primary {
@@ -138,9 +142,39 @@ nav ul li a:hover {
 
 
 
+/* SEGUNDA SEÇÃO */
+.secundary {
+    /* display: flex; */
+    background-color: #D9FFF5;
+    height: 500px;
+    padding: 50px 150px 0 150px;
+}
 
+.secundary * {
+    color: #010103;
+}
 
+.title-secundary h2 {
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+}
 
+.textgroup-secundary {
+    display: flex;
+    width: 100%;
+    padding-left: 300px;
+    padding-top: 10px;
+}
+
+.text-secundary {
+    width: 40%;
+    padding: 40px;
+}
+
+.text-secundary p {
+    font-size: 1.2rem;
+    text-decoration: none;
+}
 
 
 
